@@ -25,7 +25,43 @@ I am 2nd year computer science and business system student , currently focussing
 
 <a href="https://github.com/zadeyadni9-sketch" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zadeyadni9-sketch&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
 
-<!--
+<!--name: Generate Snake
+
+on:
+  schedule:
+    # Run automatically every 24 hours
+    - cron: "0 0 * * *" 
+  workflow_dispatch:
+  push:
+    branches:
+    - main
+
+# Explicitly grant write access to repository contents
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: Trupal-Shende
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 **zadeyadni9-sketch/zadeyadni9-sketch** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
