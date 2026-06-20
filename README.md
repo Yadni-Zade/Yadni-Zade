@@ -164,10 +164,10 @@ My background sits at the deliberate intersection of systems engineering and bus
 <!-- ============================================ -->
 <!-- GITHUB TROPHIES SECTION -->
 <!-- ============================================ -->
-### 🏅 GitHub Trophies
+### 🏅 Profile Badges & Milestones
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Yadni-Zade&theme=onestar&no-frame=true&margin-w=15&margin-h=15" alt="GitHub Trophies" />
+  <img src="https://github-readme-stats.vercel.app/api/badges?username=Yadni-Zade&theme=react&hide_border=true&bg_color=0d1117&title_color=9d4edd&icon_color=7b2cbf&text_color=c9d1d9" alt="GitHub Badges" />
 </div>
 
 ### 📈 Contribution Activity
