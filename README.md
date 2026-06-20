@@ -1,5 +1,6 @@
 <div align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:533483,100:7b2cbf&height=220&section=header&text=Yadni%20Zade&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=CS%20%26%20Business%20Systems%20%7C%20Applied%20ML%20Engineer%20%7C%20MLOps%20%26%20Production%20AI&descSize=18&descAlignY=60&animation=fadeIn" alt="header" />
+<img width="100%" src="https://img.shields.io/badge/YADNI%20ZADE-CS%20%26%20Business%20Systems%20%7C%20Applied%20ML%20Engineer-7b2cbf?style=for-the-badge&labelColor=1a1a2e" alt="header" />
+</div>
 <a href="https://github.com/Yadni-Zade">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=9D4EDD&center=true&vCenter=true&width=600&lines=Applied+ML+%26+MLOps+Engineer;Building+Production-Ready+AI+Systems;CS+%26+Business+Systems+%40+SVPCET;36-Month+FAANG+ML+Journey" alt="Typing SVG" />
 </a>
